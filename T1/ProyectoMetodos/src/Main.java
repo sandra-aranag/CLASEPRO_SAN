@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 //REFACTORIZACIÓN DE CÓDIGOS
 
@@ -14,8 +16,13 @@ public class Main {
         saludar("Marta");*/
         Operaciones operacionesMatematicas = new Operaciones(); //Con esto estoy linkando las dos clases. Es una variable compleja.
         //Si las clases estuvieran en carpetas diferentes tendríamos que importar la clase ya que están en jerarquías diferentes.
-        operacionesMatematicas.sumar(1,4);
-        operacionesMatematicas.restar(78, 6);
+        //operacionesMatematicas.sumar(1,4);
+        //operacionesMatematicas.restar(78, 6);
+        //System.out.println(operacionesMatematicas.multiplicar(7,3));
+        Scanner lectorTeclado = new Scanner(System.in);
+        System.out.println("¿Qué número quieres validar?");
+        int numeroValidar = lectorTeclado.nextInt();
+        System.out.println("El numero que se intenta validar tiene como resultado: "+operacionesMatematicas.validarNumero(98));
 
 
     }
