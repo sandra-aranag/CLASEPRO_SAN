@@ -4,7 +4,7 @@ public class Ejercicio {
 
     private Scanner lecturaTeclado;
 
-    /*Hágase una aplicación que permita introducir el número de bebidas y bocadillos
+    /*EJERCICIO 1: Hágase una aplicación que permita introducir el número de bebidas y bocadillos
         comprados (valores entre 0 y 20). Además se podrá introducir el precio de cada
         bebida (valor entre 0.00 € y 3.00 €) y de cada bocadillo (valor entre 0.00 € y 5.00
         €). También se podrá introducir el número de alumnos que realizaron la compra
@@ -54,7 +54,7 @@ public class Ejercicio {
         lecturaTeclado.close();
     }
 
-    /*Hágase un programa que convierta segundos en horas, minutos y segundos.*/
+    /*EJERCICIO 2: Hágase un programa que convierta segundos en horas, minutos y segundos.*/
     public void ejercicio4(){
         lecturaTeclado = new Scanner(System.in);
         //1. pedir datos
