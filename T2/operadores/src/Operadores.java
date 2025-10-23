@@ -105,6 +105,25 @@ public class Operadores {
 
     }
 
+    public void cambioTipos(){
+
+        //PARSEO
+        String palabra = "12";
+        int numeroPalabra = Integer.valueOf(palabra);
+        //System.out.println(numeroPalabra+10);
+
+        String palabraBool="true";
+        boolean palabraBoolean=Boolean.parseBoolean(palabraBool);
+        //System.out.println(palabraBoolean);
+
+        int numeroEvaluar = 12345;
+        String numeroEvaluarStr = String.valueOf(numeroEvaluar);
+
+        boolean acierto = true;
+        String aciertoStr = String.valueOf(acierto);
+
+    }
+
     public void evaluarCandidato(double sueldo, int edad, boolean conducir){
 
         boolean resultado = sueldo<=20000 && edad<40 && conducir;

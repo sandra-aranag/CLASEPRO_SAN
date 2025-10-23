@@ -114,6 +114,7 @@ public class Ejercicios {
 
     }
 
+
     //EJERCICIO 5
     /* Crea un programa que pida la edad del usuario y si tiene carnet de conducir (true/false). Usa
     * operadores lógicos para determinar si puede alquilar un coche (debe tener 21 años o más Y
@@ -278,7 +279,7 @@ public class Ejercicios {
         int salarioHora = lecturaTeclado.nextInt();
         System.out.println("Introduce las horas trabajadas: ");
         int horasTrabajadas= lecturaTeclado.nextInt();
-        boolean horasExtra=horasTrabajadas>=horasNormales;
+        boolean horasExtra=horasTrabajadas>horasNormales;
         System.out.println("¿Has hecho horas extra? "+horasExtra);
         System.out.println("Horas normales: "+horasNormales);
         int extra=horasTrabajadas-horasNormales;

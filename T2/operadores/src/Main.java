@@ -11,7 +11,7 @@ public class Main {
         //operadores.operadoresComparacion();
         //operadores.operadoresLogicos();
         //BufferedReader -> mejor que el Scanner, ya que este a veces se queda un poco corto
-        Scanner lectorTeclado = new Scanner(System.in);
+        /*Scanner lectorTeclado = new Scanner(System.in);
         System.out.println("Dime tu nombre y apellido");
         String nombre = lectorTeclado.nextLine(); //si quieres que lea espacio debes poner .nextLine
         System.out.println("¿Qué salario quieres ganar?");
@@ -20,7 +20,8 @@ public class Main {
         int edad = lectorTeclado.nextInt();
         System.out.println("¿Tienes permiso de conducir?");
         boolean conducir = lectorTeclado.nextBoolean();
-        operacionesVariable.evaluarCandidato(salarioEntrada,edad,conducir);
+        operacionesVariable.evaluarCandidato(salarioEntrada,edad,conducir);*/
+        operacionesVariable.cambioTipos();
     }
 
 }
