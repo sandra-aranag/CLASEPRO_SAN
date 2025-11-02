@@ -355,7 +355,8 @@ public class Ejercicios {
             precio=6;
             System.out.println("Entrada 6€ por ser mayor de 65 años.");
         }
-
+        scanner.close();
+        scanner=null;
         }
 
 
@@ -396,6 +397,72 @@ public class Ejercicios {
         }
 
 
+        scanner.close();
+        scanner=null;
+
+
+
+    }
+
+
+    /*EJERCICIO 15
+   Crea un programa que calcule el coste de envío de un paquete. Pide: peso del paquete (kg), distancia de envío (km),
+   y si es envío urgente (true/false). Las reglas son: Precio base: 5€. Si el peso es mayor de 5kg, añadir 2€ por cada
+   kg adicional. Si la distancia es mayor de 100km, añadir 10€. Si es envío urgente, multiplicar el precio total por 1.5.
+   Muestra todos los cálculos paso a paso.*/
+
+    public void ejercicio15(){
+
+        System.out.println("Introduce el peso del paquete (kg): ");
+        double peso = scanner.nextDouble();
+        System.out.println("Introduce la distancia del envío (km): ");
+        double distancia = scanner.nextDouble();
+        System.out.println("¿Es envío urgente?: ");
+        boolean envioUrgente = scanner.nextBoolean();
+
+
+
+
+
+        double precioBase = 5.0;
+        double pesoExceso = 0.0;
+        if (peso > 5){
+            pesoExceso = peso - 5;
+        }
+        double costePeso = pesoExceso * 2;
+
+        double costeDistancia;
+        if (distancia > 100){
+            costeDistancia = 10.0;
+
+        } else {
+            costeDistancia = 0.0;
+        }
+
+        double subtotal = precioBase + costePeso + costeDistancia;
+
+        double total;
+        if (envioUrgente){
+            total = subtotal * 1.5;
+        } else{
+            total = subtotal;
+        }
+
+        double recargo = total - subtotal;
+
+        System.out.println("Precio base: " +precioBase+ "€");
+        System.out.println("Peso: " +peso+ "kg");
+        System.out.println("Distancia: " +distancia+ "km");
+        System.out.println("Coste adicional por distancia: " +costeDistancia);
+        System.out.println("Subtotal: " +subtotal);
+        System.out.println("¿Es envío urgente?:" +envioUrgente);
+        System.out.println("Recargo por urgencia: " +recargo);
+        System.out.println("Coste total de envío: " +total);
+
+
+
+        scanner.close();
+        scanner=null;
 
 
 
@@ -416,9 +483,7 @@ public class Ejercicios {
 
 
 
-
-
-    }
+}
 
 
 
