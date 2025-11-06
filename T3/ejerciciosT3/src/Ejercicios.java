@@ -29,6 +29,7 @@ public class Ejercicios {
         System.out.println("Introduce un número: ");
         int numero = scanner.nextInt();
 
+
         if (numero > 0){
             System.out.println("El número es positivo.");
         } else if (numero == 0){

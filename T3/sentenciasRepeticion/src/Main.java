@@ -10,8 +10,8 @@ public class Main {
 
         }*/
 
-        //operaciones.todasTablas();
-        operaciones.dibujarCuadrado();
+        operaciones.todasTablas();
+        //operaciones.dibujarCuadrado();
 
 
 
