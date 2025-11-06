@@ -2,7 +2,9 @@ public class Main {
 
     static void main(String[] args) {
 
-        SentenciaFor operaciones = new SentenciaFor();
+        //SentenciaFor operaciones = new SentenciaFor();
+        SentenciaWhile operaciones = new SentenciaWhile();
+
         //operaciones.sentenciaFor();
 
         /*for (int i = 0; i < 11; i++) {
@@ -10,9 +12,13 @@ public class Main {
 
         }*/
 
-        operaciones.todasTablas();
+        //operaciones.todasTablas();
         //operaciones.dibujarCuadrado();
-
+        //operaciones.palabraPalindromo();
+        //operaciones.calcularFactorial();
+        //operaciones.recorrerColeccion();
+        //operaciones.evaluacionNumero();
+        operaciones.imprimirMenu();
 
 
 

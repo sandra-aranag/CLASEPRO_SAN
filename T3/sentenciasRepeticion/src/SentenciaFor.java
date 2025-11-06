@@ -60,7 +60,74 @@ public void dibujarCuadrado(){
 }
 
 
-//Sacar 
+//Sacar cada letra de una palabra
 
+    public void palabraPalindromo(){
+
+     //Palabra palíndromo cuando se lee igual de principio a fin que de fin a principio (oso, ana)
+        //¿Qué lógica aplicar para decirle que la lea igual?
+        //Tiene que haber un boolean en algún sitio
+
+     String frase = "alli ves sevilla";
+     frase=frase.replaceAll(" ", ""); //para quitar los espacios
+     boolean esPalindromo = true;
+
+        for (int i = 0; i < frase.length()/2; i++) {
+            //Comprara cada letra 0->ultimo
+            //comprar cada letra 1->penultimo
+            //comprara cada letra 2->antepnultimo
+
+            char letraUno=frase.charAt(i);
+            char letraDos=frase.charAt(frase.length()-1-i);
+
+            if (letraUno!=letraDos){
+                esPalindromo = false;
+                break;
+            }
+
+        }
+
+        if (esPalindromo){
+            System.out.println("La palabra es palindromo");
+        } else{
+            System.out.println("La palabra no es palindromo");
+        }
+
+
+
+    }
+
+    //Calcular el factorial de un número
+
+    public void calcularFactorial(){
+
+     //5! = 5*4*3*2*1
+
+        int  numeroCalcular = 3;
+        int factorial = 1; //porque el 1 es el mínimo
+        for (int i = 1; i <= numeroCalcular; i++) {
+            factorial *= i;
+        }
+        System.out.printf("El factorial de %d es %d", numeroCalcular, factorial);
+
+    }
+
+    public void recorrerColeccion(){
+        int[] numero = {1,10,90,40};
+        //un armario de n posiciones
+
+        //FORMA TRADICIONAL DE ESCRIBIR UN FOR
+        /*for (int i = 0; i < numero.length; i++) {
+            System.out.println(numero[i]);
+        }*/
+
+        //FOR-EACH
+        for( int item : numero){
+
+            System.out.println(item);
+
+        }
+
+    }
 
 }
