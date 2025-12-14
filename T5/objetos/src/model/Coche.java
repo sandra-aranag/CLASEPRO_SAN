@@ -3,7 +3,7 @@ package model;
 import lombok.*;
 
 @Data//tienes todos los getter, setter por lombok
-@NoArgsConstructor //ya tienes el constructor vacío
+//@NoArgsConstructor //ya tienes el constructor vacío
 @AllArgsConstructor
 public class Coche {
 
@@ -101,7 +101,7 @@ public class Coche {
     }*/
 
     @Override
-    public String toString(){
-        return  this.modelo +" "+this.marca+" "+this.precio;
+    public String toString() {
+        return this.modelo + " " + this.marca + " " + this.precio;
     }
 }
