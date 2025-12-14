@@ -74,7 +74,7 @@ public class Menu {
         int primero = array[0];
 
         for (int i = 0; i < array.length - 1; i++) {
-            array[i] = array[i + 1];
+            array[i] = array[i + 1];//acabas de guardar el segundo numero en la primera posición y sucesivamente
         }
 
         array[array.length - 1] = primero;
