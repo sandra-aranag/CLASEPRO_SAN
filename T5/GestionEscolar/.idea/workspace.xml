@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="554f7317-042a-4c5d-96ae-bf7b88af991e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/libraries/lombok.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/controller/CampeonatoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/controller/CarreraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/model/Campeonato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/model/Carrera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/model/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Fijo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Inspector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Interino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Profesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ejerciciosBase/src/resources/lombok.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarreraCoches/src/resources/lombok.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DevelopSys&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sandra-aranag/CLASEPRO_SAN.git&quot;,
+    &quot;accountId&quot;: &quot;32363f39-5102-4876-9145-36d9faa53153&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="36w5IqdWblyqzgyyZcoLII5mOjV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41931686&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="554f7317-042a-4c5d-96ae-bf7b88af991e" name="Changes" comment="" />
+      <created>1765904717357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765904717357</updated>
+    </task>
+    <servers />
+  </component>
+</project>
