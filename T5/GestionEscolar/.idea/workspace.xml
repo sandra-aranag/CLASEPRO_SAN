@@ -5,32 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="554f7317-042a-4c5d-96ae-bf7b88af991e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/libraries/lombok.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/controller/CampeonatoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/controller/CarreraController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/model/Campeonato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/model/Carrera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CarreraCoches/src/model/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Fijo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Inspector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Interino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GestorEscolarHerencia/src/model/Profesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../untitled/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejerciciosBase/src/resources/lombok.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../../CarreraCoches/src/resources/lombok.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjerciciosPooNotion/Ejercicio1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjerciciosPooNotion/Ejercicio1/src/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/untitled.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
