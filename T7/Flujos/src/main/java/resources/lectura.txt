@@ -1,0 +1,11 @@
+Esto es un ejemplo de lectura de ficheros
+Esto es otra linea en el fichero
+
+
+
+OBJETOS - > .bin -> Integer/Boolean/String/Usuario/ArrayList-> guarda datos java
+    OBJETOS QUE YA EXISTEN (Integer, Boolean...)
+        Flujo Escritura
+            File -> FileOutputStream -> ObjectOutputStream -> WriterObject (Int, bollean...)
+        Flujo Lectura
+            File -> FileInputStream -> ObjectInputStream -> ReadObject (Int, Boolean...)

@@ -5,7 +5,11 @@ public class Main {
     el bonus al salario base. Crea objetos de ambos tipos y muestra su información completa.*/
     public static void main(String[] args) {
 
+        Gerente gerente = new Gerente("Ana García", 40000, 10000);
+        Desarrollador desarrollador = new Desarrollador("Sandra Arana", 30000, "Java");
 
+        gerente.mostrarDatos();
+        desarrollador.mostrarDatos();
 
     }
 

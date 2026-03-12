@@ -9,10 +9,7 @@ public abstract class Empleado {
         this.salarioBase = salarioBase;
     }
 
-    public void mostrarDatos(){
-        System.out.println("nombre = " + nombre);
-        System.out.println("salarioBase = " + salarioBase);
-    }
+    public abstract void mostrarDatos();
 
     public String getNombre() {
         return nombre;
